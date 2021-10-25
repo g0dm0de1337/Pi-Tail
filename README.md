@@ -75,7 +75,9 @@ befehl:
 - toor
 - toor (bestätigung)
 euer passwort ist nun wieder "toor"
-beendet die jetzige verbindung und nutzt die root@192.168.43.254 mit dem standart passwort "toor"
+- su
+- toor
+jetzt seit ihr wieder der gewohnte Root-User
 (ist wichtig damit alle skripte wie gewohnt funktionieren)
 
 https://github.com/trendy77/kaliPiBOOT
