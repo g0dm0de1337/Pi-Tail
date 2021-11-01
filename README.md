@@ -72,11 +72,18 @@ __________________________
 (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
 dieses ist zwar aktueller, bedarf doch mehr konfigurationen..
 # [Trick 1]
-anstatt bei ConnectBot root@192.168.43.254 müsstet ihr kali@192.168.43.254 eingeben und euer ssh passwort lautet kali statt toor
+anstatt bei ConnectBot root@192.168.43.254 müsstet ihr kali@192.168.43.254 eingeben 
+euer ssh passwort lautet:
+- kali 
+(statt toor)
+
 damit alles wie gewohnt funktioniert, geht wie folgt vor:
-verbinden mit kali@192.168.43.254
-passwort: kali
-[jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. um wieder root-user zu sein, tut folgendes..]
+verbinden mit 
+- kali@192.168.43.254
+passwort:
+- kali
+[jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. 
+um wieder root-user zu sein, tut folgendes..]
 befehl:
 - sudo passwd root
 [da die neue kali version gar kein root passwort hat, fragt er euch direkt nach einem neuen]
