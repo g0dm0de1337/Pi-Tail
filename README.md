@@ -84,7 +84,17 @@ __________________________
 
 # Es gibt eine Pi-Tail version von "kali.org"
 > (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
-dieses ist zwar aktueller, bedarf doch mehr konfigurationen..
+dieses ist zwar aktueller, bedarf doch mehr konfigurationen
+
+***
+# ***
+
+***
+ihr müsst als Root-User unter kali-tail unterwegs sein, damit alle skripte wie gewohnt funktionieren..
+kali.org hat das img. zwar auf den neusten stand gebracht und alle Skripte mit importiert, nun ist es aber so das man bei der kali 2018 version komplett als root-user unterwegs ist, was seit der neusten 2020 version unter kali NICHT mehr der fall ist.. 
+entweder passt ihr alle befehle mit "sudo" an,{dazu müsst ihr auch teils die skripte bearbeiten} 
+oder ihr wendet eines, der von mir gegebenden "Tricks" an um das problem zu lösen
+***
 
 ***
 # [Trick 1]
