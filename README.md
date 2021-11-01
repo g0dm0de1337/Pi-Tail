@@ -34,22 +34,22 @@ indem ihr euer gerät strom gebt
 stellt nun euer android ein:
 (WiFi-Hotspot einstellen &ConnectBot)
 
-https://youtu.be/HwUJdM0aFXw
+# https://youtu.be/HwUJdM0aFXw
 
 # Hier zeige ich euch was ihr tun müsst, nachdem ihr das Image herruntergeladen habt, und es auf eine SD-karte mit hilfe von Raspberry Pi Imager, kopiert habt.
 Dieses Image, was von "re4son" zur verfügung gestellt wurde, ist komplett und bedarf KEIN "apt-get update/upgrade".. dieser vorgang würde dafür sorgen das eucher Pi-Tail nicht mehr funktioniert wie gewohnt
 ***
-Hotspot name:
+Hotspot Name:
 - sepultura
 
-and the Passwort:
+und das Passwort:
 - R4t4m4h4tt4
 ***
 ***
 in ConnectBot:
 - root@192.168.43.254
 
-ssh/root passwort:
+ssh/root Passwort:
 - toor
 ***
 - mon0up
