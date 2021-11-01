@@ -20,10 +20,10 @@ re4son sein kernel sorgt dafür das Raspberry pi's in den monitor mode
 gehen können, ohne eine zusatz w-lan karte... 
 ladet hierfür folgende datei herrunter und kopiert sie auf die SD-Karte..
 > per "Raspberry Pi Imager"
-https://whitedome.com.au/re4son/download/pi-tail/
+> https://whitedome.com.au/re4son/download/pi-tail/
 
-https://downloads.raspberrypi.org/imager/imager_latest.exe
-"Raspberry Pi Imager"
+> https://downloads.raspberrypi.org/imager/imager_latest.exe
+> "Raspberry Pi Imager"
 
 ..steckt diese nun in ein Raspberry Pi zero und startet ihn
 indem ihr euer gerät strom gebt
