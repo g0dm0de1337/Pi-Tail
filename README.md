@@ -71,8 +71,8 @@ __________________________
 > (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
 dieses ist zwar aktueller, bedarf doch mehr konfigurationen..
 # [Trick 1]
-~ > anstatt bei ConnectBot..
-~ - root@192.168.43.254 
+> anstatt bei ConnectBot..
+- root@192.168.43.254 
 
 > müsstet ihr 
 - kali@192.168.43.254 
