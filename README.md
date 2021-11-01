@@ -37,7 +37,7 @@ stellt nun euer android ein:
 # https://youtu.be/HwUJdM0aFXw
 
 # Hier zeige ich euch was ihr tun müsst, nachdem ihr das Image herruntergeladen habt, und es auf eine SD-karte mit hilfe von Raspberry Pi Imager, kopiert habt.
-Dieses Image, was von "re4son" zur verfügung gestellt wurde, ist komplett und bedarf KEIN "apt-get update/upgrade".. dieser vorgang würde dafür sorgen das eucher Pi-Tail nicht mehr funktioniert wie gewohnt
+Dieses Image, was von "re4son" zur verfügung gestellt wurde, ist komplett und bedarf KEIN "apt-get update/upgrade".. dieser vorgang würde dafür sorgen das euer Pi-Tail nicht mehr funktioniert wie gewohnt
 ***
 Hotspot Name:
 - sepultura
