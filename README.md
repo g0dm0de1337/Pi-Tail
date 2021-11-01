@@ -60,14 +60,10 @@ oben rechts auf die 3punkte klicken und auf "Port-weiterleitung" gehen
 - destination: 127.0.0.1:5901
 
 öffnet eine VNC app und fügt eine neue Verbindung hinzu:
-name:
-- PiTail0
-adresse: 
-- 127.0.0.1:5901
-user:
-- root
-passwort: 
-- toortoor
+name: - PiTail0
+adresse: - 127.0.0.1:5901
+user: - root
+passwort: - toortoor
 
 __________________________
 
