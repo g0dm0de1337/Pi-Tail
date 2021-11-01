@@ -1,4 +1,5 @@
-# Pi-Tail
+# Pi-Tail Komplett
+> auf Deutsch
 re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung
 
 hier die anleitung auf englisch:
@@ -42,7 +43,7 @@ ssh/root passwort:
 
 - mon0up
 - wifite
-- (crtl+c =beenden // mon0down beendet monitor mode)
+> (crtl+c =beenden // mon0down beendet monitor mode)
 
 ___________________________
 
@@ -52,13 +53,14 @@ gebt folgenden befehl ein:
 - vncserver
 
 oben rechts auf die 3punkte klicken und auf "Port-weiterleitung" gehen
-- nickname:localhost
+- nickname: localhost
 - type: local
 - source port: 5901
 - destination: 127.0.0.1:5901
 
 öffnet eine VNC app und fügt eine neue Verbindung hinzu:
-name:PiTail0
+name:
+- PiTail0
 adresse: 
 - 127.0.0.1:5901
 user:
@@ -69,27 +71,32 @@ passwort:
 __________________________
 
 # Es gibt eine Pi-Tail version von "kali.org"
-(momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
+> (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
 dieses ist zwar aktueller, bedarf doch mehr konfigurationen..
 # [Trick 1]
-anstatt bei ConnectBot root@192.168.43.254 müsstet ihr kali@192.168.43.254 eingeben 
+anstatt bei ConnectBot 
+- root@192.168.43.254 
+müsstet ihr 
+- kali@192.168.43.254 
+eingeben ..
+
 euer ssh passwort lautet:
 - kali 
-(statt toor)
+> (statt toor)
 
 damit alles wie gewohnt funktioniert, geht wie folgt vor:
 verbinden mit 
 - kali@192.168.43.254
 passwort:
 - kali
-[jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. 
-um wieder root-user zu sein, tut folgendes..]
+> [jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. 
+> um wieder root-user zu sein, tut folgendes..]
 befehl:
 - sudo passwd root
-[da die neue kali version gar kein root passwort hat, fragt er euch direkt nach einem neuen]
+> [da die neue kali version gar kein root passwort hat, fragt er euch direkt nach einem neuen]
 - toor
-- toor (bestätigung)
-euer passwort ist nun wieder "toor"
+- toor   (..bestätigung)
+> [euer passwort ist nun wieder "toor"]
 - su
 - toor
 jetzt seit ihr wieder der gewohnte Root-User
@@ -103,11 +110,14 @@ passwort: kali
 - passwd
 > [er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
 - kali
-- toortoor > [neues kali passwort]
-- toortoor > [zum bestätigen]
+- toortoor 
+> [neues kali passwort]
+- toortoor 
+> [zum bestätigen]
 trennt die aktive verbindung und erstellt einen neuen host:
-root@192.168.43.256
-verbindet euch mit root@192.168.43.254
+- root@192.168.43.256
+
+> verbindet euch mit root@192.168.43.254
 und gebt 
 - toortoor
 als passwort ein
