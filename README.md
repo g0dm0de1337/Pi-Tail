@@ -98,7 +98,7 @@ befehl:
 > [euer passwort ist nun wieder "toor"]
 - su
 - toor
-jetzt seit ihr wieder der gewohnte Root-User
+> jetzt seit ihr wieder der gewohnte Root-User
 ***
 
 
