@@ -102,8 +102,10 @@ jetzt seit ihr wieder der gewohnte Root-User
 
 # [Trick 2]
 ---> wenn ihr euch bei diesem img, über ConnectBot mit root einloggen wollt, tut folgendes !!! <---
-verbinden mit kali@192.168.43.254
-passwort: kali
+verbinden mit: 
+- kali@192.168.43.254
+> passwort: 
+- kali
 - passwd
 > [er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
 - kali
