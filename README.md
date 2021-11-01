@@ -49,6 +49,7 @@ ssh/root passwort:
 - wifite
 > (crtl+c =beenden // mon0down beendet monitor mode)
 
+***
 ___________________________
 
 # Tipp: VNC kontrolle:
@@ -86,13 +87,14 @@ damit alles wie gewohnt funktioniert, geht wie folgt vor:
 verbinden mit 
 - kali@192.168.43.254
 - kali
-> [jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. 
-> um wieder root-user zu sein, tut folgendes..]
+> [jetzt seid ihr ein normaler user der immer sudo eingeben müsste !!]
+> 
+> um wieder root-user zu sein, tut folgendes..
 befehl:
 - sudo passwd root
 > [da die neue kali version gar kein root passwort hat, fragt er euch direkt nach einem neuen]
 - toor
-- toor   (..bestätigung)
+- toor     (..als bestätigung)
 > [euer passwort ist nun wieder "toor"]
 - su
 - toor
@@ -117,7 +119,7 @@ trennt die aktive verbindung und erstellt einen neuen host:
 - root@192.168.43.256
 
 > verbindet euch mit root@192.168.43.254
-und gebt 
+> und gebt 
 - toortoor
 > als passwort ein
 ***
