@@ -101,10 +101,10 @@ jetzt seit ihr wieder der gewohnte Root-User
 verbinden mit kali@192.168.43.254
 passwort: kali
 - passwd
-...[er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
+> [er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
 - kali
-- toortoor [neues kali passwort]
-- toortoor [zum bestätigen]
+- toortoor > [neues kali passwort]
+- toortoor > [zum bestätigen]
 trennt die aktive verbindung und erstellt einen neuen host:
 root@192.168.43.256
 verbindet euch mit root@192.168.43.254
@@ -114,10 +114,10 @@ als passwort ein
 ***
 
 
-(*** ihr müsst als Root-User unter kali-tail unterwegs sein, damit alle skripte wie gewohnt funktionieren..
+ihr müsst als Root-User unter kali-tail unterwegs sein, damit alle skripte wie gewohnt funktionieren..
 kali.org hat das img. zwar auf den neusten stand gebracht und alle Skripte mit importiert, nun ist es aber so das man bei der kali 2018 version komplett als root-user unterwegs ist, was seit der neusten 2020 version unter kali NICHT mehr der fall ist.. 
 entweder passt ihr alle befehle mit "sudo" an,{dazu müsst ihr auch teils die skripte bearbeiten} 
-oder ihr wendet eines, der von mir gegebenden "Tricks" an um das problem zu lösen)
+oder ihr wendet eines, der von mir gegebenden "Tricks" an um das problem zu lösen
 
 
 https://github.com/trendy77/kaliPiBOOT
