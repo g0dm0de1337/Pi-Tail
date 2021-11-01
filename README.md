@@ -1,12 +1,14 @@
 # Pi-Tail Komplett
 > auf Deutsch
 ***
-re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung
 
-hier die anleitung auf englisch:
-https://whitedome.com.au/re4son/pi-tail/
+(hier die anleitung auf englisch:
+https://whitedome.com.au/re4son/pi-tail/)
+
+re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung...
 
 ***
+
 Image: Pi-Tail.img von dem Entwickler "re4son"
 letztes update 2018
 > Pi-Tail-180925.img.xz (2,2G)
@@ -16,8 +18,8 @@ letztes update 2018
 ***
 re4son sein kernel sorgt dafür das Raspberry pi's in den monitor mode
 gehen können, ohne eine zusatz w-lan karte... 
-ladet hierfür folgende datei herrunter und kopiert sie
-per "Raspberry Pi Imager" auf eine SD-Karte
+> ladet hierfür folgende datei herrunter und kopiert sie
+> per "Raspberry Pi Imager" auf eine SD-Karte
 https://whitedome.com.au/re4son/download/pi-tail/
 
 https://downloads.raspberrypi.org/imager/imager_latest.exe
