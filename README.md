@@ -121,7 +121,7 @@ trennt die aktive verbindung und erstellt einen neuen host:
 > verbindet euch mit root@192.168.43.254
 und gebt 
 - toortoor
-als passwort ein
+> als passwort ein
 ***
 
 
