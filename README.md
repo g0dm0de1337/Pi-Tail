@@ -33,7 +33,8 @@ Dieses Image, was von "re4son" zur verfügung gestellt wurde, ist komplett und b
 
 Hotspot name:
 - sepultura
-Passwort:
+
+and the Passwort:
 - R4t4m4h4tt4
 
 in ConnectBot:
