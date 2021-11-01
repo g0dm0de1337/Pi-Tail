@@ -1,5 +1,6 @@
 # Pi-Tail Komplett
 > auf Deutsch
+*
 re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung
 
 hier die anleitung auf englisch:
