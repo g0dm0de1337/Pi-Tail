@@ -101,7 +101,7 @@ jetzt seit ihr wieder der gewohnte Root-User
 verbinden mit kali@192.168.43.254
 passwort: kali
 - passwd
-[ er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also: ]
+...[er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
 - kali
 - toortoor [neues kali passwort]
 - toortoor [zum bestätigen]
