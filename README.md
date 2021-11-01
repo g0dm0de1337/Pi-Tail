@@ -19,7 +19,7 @@ letztes update 2018
 re4son sein kernel sorgt dafür das Raspberry pi's in den monitor mode
 gehen können, ohne eine zusatz w-lan karte... 
 ladet hierfür folgende datei herrunter und kopiert sie auf die SD-Karte..
-> per "Raspberry Pi Imager"
+> "Kali Pi-Tail img"
 > https://whitedome.com.au/re4son/download/pi-tail/
 
 > https://downloads.raspberrypi.org/imager/imager_latest.exe
