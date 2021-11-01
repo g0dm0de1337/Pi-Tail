@@ -26,7 +26,7 @@ steckt diese nun in ein Raspberry Pi zero und startet ihn
 indem ihr euer gerät strom gebt
 
 stellt nun euer android ein:
-(ConnectBot)
+(WiFi-Hotspot einstellen &ConnectBot)
 
 https://youtu.be/HwUJdM0aFXw
 
