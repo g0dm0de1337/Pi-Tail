@@ -75,9 +75,8 @@ __________________________
 dieses ist zwar aktueller, bedarf doch mehr konfigurationen..
 # [Trick 1]
 > anstatt bei ConnectBot..
-- root@192.168.43.254 
-
-> müsstet ihr 
+> root@192.168.43.254 
+> ...müsstet ihr:
 - kali@192.168.43.254 
 > eingeben ..
 
@@ -88,7 +87,6 @@ euer ssh passwort lautet:
 damit alles wie gewohnt funktioniert, geht wie folgt vor:
 verbinden mit 
 - kali@192.168.43.254
-passwort:
 - kali
 > [jetzt seid ihr ein normaler user der immer sudo eingeben müsste.. 
 > um wieder root-user zu sein, tut folgendes..]
