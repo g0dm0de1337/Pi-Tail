@@ -14,7 +14,7 @@ letztes update 2018
 > Pi-Tail-180925.img.xz (2,2G)
 
 ..nicht das aktuellste .img, dennoch funktioniert noch alles, solange man nicht updatet:
-- nicht apt-get update/upgrade
+- KEIN apt-get update/upgrade
 ***
 re4son sein kernel sorgt dafür das Raspberry pi's in den monitor mode
 gehen können, ohne eine zusatz w-lan karte... 
@@ -151,7 +151,6 @@ verbinden mit:
 ***
 ***
 
-***
 ***
 
 # https://github.com/Re4son/
