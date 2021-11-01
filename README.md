@@ -8,7 +8,9 @@ https://whitedome.com.au/re4son/pi-tail/
 
 Image: Pi-Tail.img von dem Entwickler "re4son"
 letztes update 2018
-was nicht schlimm ist, da immernoch alles funktioniert, solange nicht updatet:
+> Pi-Tail-180925.img.xz (2,2G)
+
+..nicht das aktuellste .img, dennoch funktioniert noch alles, solange man nicht updatet:
 - nicht apt-get update/upgrade
 
 re4son sein kernel sorgr dafür das Raspberry pi's in den monitor mode
