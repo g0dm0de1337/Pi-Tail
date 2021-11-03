@@ -1,156 +1,155 @@
-# Pi-Tail Komplett
-> auf Deutsch
+# Pi-Tail (German / Deutsch)
 ***
+re4son Kernel und Kali Image funktionieren auf den Raspberry Pi Zero! Hier eine Anleitung...
 
-(hier die anleitung auf englisch:
-https://whitedome.com.au/re4son/pi-tail/)
+Hardware:
 
-re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung...
+- Rasperry Pi Zero
+- SD Card mit mindestens 8GB Speicherplatz
+- Internetverbindung
+- Zeit und ein bisschen Gedult :)
 
 ***
+Führt kein Upgrade oder Update des Systems durch! Oder es kann zu ungewöhlichen Verhalten oder sogar Abstürze führen wenn nicht sogar das komplette System unbrauchbar machen..! 
 
-Image: Pi-Tail.img von dem Entwickler "re4son"
-letztes update 2018
-> Pi-Tail-180925.img.xz (2,2G)
+re4son's Kernel erlaubt es dem Raspberry Pi, vom Managed Mode in den Wi-Fi Monitor Mode
+zu wechseln, ohne das ein zusätzlicher Wi-Fi Dongle benötigt wird.
 
-..nicht das aktuellste .img, dennoch funktioniert noch alles, solange man nicht updatet:
-- KEIN apt-get update/upgrade
-***
-re4son sein kernel sorgt dafür das Raspberry pi's in den monitor mode
-gehen können, ohne eine zusatz w-lan karte... 
-ladet hierfür folgende datei herrunter und kopiert sie auf die SD-Karte..
-> "Kali Pi-Tail img"
-> https://whitedome.com.au/re4son/download/pi-tail/
+## Installation
+Lade hierfür folgende Dateien herunter und speichere sie an einem Ort wo du sie einfach findest.
 
+
+Image: Pi-Tail.img
+Entwickler: re4son
+Letztes Update:
+2018
+> wget https://docs.google.com/u/0/uc?id=1ZJc6p9e1fGLhuM-0hVn177i_VXL99aW4&export=download#Pi-Tail-180925.img.xz
+
+Raspberry Pi Imager
 > https://downloads.raspberrypi.org/imager/imager_latest.exe
-> "Raspberry Pi Imager"
+***
 
-..steckt diese nun in ein Raspberry Pi zero und startet ihn
-indem ihr euer gerät strom gebt
-
+Wenn alle benötigten Dateien heruntergeladen wurde, öffne das heruntergeladene Programm Rasperry Imager.
+Nun solltest du die Möglichkeit haben, die SD Card auszuwählen sowie das heruntergeladene Image.
+Vergewissere dich, das du bei der Auswahl der SD Card den gleichen Buchstaben erwischst, wie im Windows Explorer angezeigt. Wenn alles passt, dann starte Imager mit dem schreiben des Images auf die SD Card.
 ***
 ***
 
-stellt nun euer android ein:
-(WiFi-Hotspot einstellen &ConnectBot)
+# Android Setup
+Visualisierte Installations Guide:
+> https://youtu.be/HwUJdM0aFXw
 
-# https://youtu.be/HwUJdM0aFXw
+ConnectBot im Play Store herunterladen:
+> https://play.google.com/store/apps/details?id=org.connectbot&hl=de_CH&gl=US
 
-# Hier zeige ich euch was ihr tun müsst, nachdem ihr das Image herruntergeladen habt, und es auf eine SD-karte mit hilfe von Raspberry Pi Imager, kopiert habt.
-Dieses Image, was von "re4son" zur verfügung gestellt wurde, ist komplett und bedarf KEIN "apt-get update/upgrade".. dieser vorgang würde dafür sorgen das euer Pi-Tail nicht mehr funktioniert wie gewohnt
-***
+Hotspot: Um überhaupt mit dem Rasperry Pi Zero kommunizieren zu können, werden ein paar Einstellungen vorgenommen in den Hotspot Einstellungen von Android
+
 Hotspot Name:
 - sepultura
 
-und das Passwort:
+Passwort:
 - R4t4m4h4tt4
-***
-***
-in ConnectBot:
+
+
+Für ConnectBot sind diese Einstellungen ZWINGEND vorrausgesetzt
+ConnectBot:
 - root@192.168.43.254
 
-ssh/root Passwort:
+root Passwort:
 - toor
 ***
+
+** Tipps & Tricks
+
 - mon0up
 - wifite
-> (crtl+c =beenden // mon0down beendet monitor mode)
+> (crtl+c = beenden // mon0down beendet Monitor Mode)
 
 ***
 ___________________________
 ***
 
-# Tipp: VNC kontrolle:
-wenn ihr im "Pi-Tail" seid
-gebt folgenden befehl ein:
+VNC:
+Wenn ihr im Pi-Tail eingeloggt seid
+gebt folgenden Befehl ein um VNCServer zu starten
 - vncserver
-***
-oben rechts auf die 3punkte klicken und auf "Port-weiterleitung" gehen
+
+Danach erscheint ein Fenster. Oben rechts auf die drei Punkte klicken und auf "Port-weiterleitung" auswählen. Hier da dazu benötigten Einstellungen:
+
 - nickname: localhost
 - type: local
 - source port: 5901
 - destination: 127.0.0.1:5901
 ***
-öffnet eine VNC app und fügt eine neue Verbindung hinzu:
+
+Für VNC App:
 - name: PiTail0
 - adresse: 127.0.0.1:5901
 - user: root
 - passwort: toortoor
-
-__________________________
+***
 ***
 
-***
+### FAQ & Misc
 
 # Es gibt eine Pi-Tail version von "kali.org"
+
 > (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
-dieses ist zwar aktueller, bedarf doch mehr konfigurationen
 
+Dieses Image ist zwar neuer als das verwendet Image von hier, jedoch bedarf es noch mehr an Konfiguration.
 
+Damit alle Skripte wie gewohnt funktionieren, muss du als root angemeldet sein. Seit Kali 2020 muss das Password von root erst vergeben werden. Dies ist schnell und unkompliziert erledigt:
 ***
-!!!
-ihr müsst als Root-User unter kali-tail unterwegs sein, damit alle skripte wie gewohnt funktionieren..
-kali.org hat das img. zwar auf den neusten stand gebracht und alle Skripte mit importiert, nun ist es aber so das man bei der kali 2018 version komplett als root-user unterwegs ist, was seit der neusten 2020 version unter kali NICHT mehr der fall ist.. 
-entweder passt ihr alle befehle mit "sudo" an,{dazu müsst ihr auch teils die skripte bearbeiten} 
-oder ihr wendet eines, der von mir gegebenden "Tricks" an um das problem zu lösen
-!!!
-***
+Ersetzt bei ConnectBot / Anderes VNC/SSH App
 
-***
-# [Trick 1]
-> ersetzt bei ConnectBot..
-> root@192.168.43.254 mit..
-- kali@192.168.43.254 
+> root@192.168.43.254
 
-> euer ssh passwort lautet:
-- kali 
-> (statt toor)
+gegen
+> kali@192.168.43.254 
+
+Das neue Userlogin/SSH Passwort lautet:
+> kali (statt toor)
 
 damit alles wie gewohnt funktioniert, geht wie folgt vor:
 verbinden mit 
-- kali@192.168.43.254
-- kali
-> [jetzt seid ihr ein normaler user der immer sudo eingeben müsste !!]
-> 
-***
-> um wieder root-user zu sein, tut folgendes..
-befehl:
-- sudo passwd root
-> [da die neue kali version gar kein root passwort hat, fragt er euch direkt nach einem neuen]
-- toor
-- toor     (..als bestätigung)
-> [euer passwort ist nun wieder "toor"]
-- su
-- toor
-> jetzt seit ihr wieder der gewohnte Root-User
-***
+> kali@192.168.43.254
+> kali
+- Root password fehlt... Also ergänzen wir diesen:
+> sudo passwd root
+
+
+Da die Neue Kali Version kein root password verlangt, wird ihr direkt nach einem neuen Password gefragt
+Hier verwenden wir "toor" als Password (Pre Kali 2020 Images)
+> toor
+> toor     
+
+(..als Bstätigung)
+- [Passwort ist nun wieder "toor"]
+
+Das Password wurde nun root erfolgreich zugewiesen. Nun können wir uns als root anmelden und alle Skripte funktioneren wieder gemäss Kali 2019 (Als Referenz)
+> su
+> toor
 
 ***
-# [Trick 2]
----> wenn ihr euch bei diesem img, über ConnectBot mit root einloggen wollt, tut folgendes !!! <---
+# [Trick]
+Falls ihr euch bei diesem Image mit der ConnectBot App mit root einloggen wollt, folgende Schritte:
 verbinden mit: 
-- kali@192.168.43.254
-> passwort: 
-- kali
-***
+> kali@192.168.43.254
+- passwort: 
+> kali
 - passwd
-> [er fragt euch nach eurem kali passwort was zur Zeit noch "kali" ist (ssh passwort).. also:]
-- kali
-- toortoor 
-> [neues kali passwort]
-- toortoor 
-> [zum bestätigen]
-***
-> trennt die aktive verbindung und erstellt einen neuen host:
-- root@192.168.43.254
-***
-> verbindet euch mit root@192.168.43.254
-> und gebt 
-- toortoor
-> als passwort ein
-***
-***
+Kali wird euch nach einem neuen Password fragen. Dies ist bestehend als "kali" definiert und sollte in diesem Fall angepasst werden:
 
+> kali
+> toortoor 
+- [Neues Kali Passwort]
+> toortoor 
+- [Zur Verifizierung]
 ***
+> Trennt die aktive Verbindung, ändert das neue Password in den bestehenden Passwordfelder in der ConnectApp / SSH App / VNC App
 
-# https://github.com/Re4son/
+## Referenzen:
+Raspberry Pi Kernel Dev:
+- https://github.com/Re4son/
+(Anleitung auf Englisch:
+- https://whitedome.com.au/re4son/pi-tail/)
