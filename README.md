@@ -85,7 +85,7 @@ __________________________
 # Es gibt eine Pi-Tail version von "kali.org"
 > (momentan kali-linux-2021.3-rpi0w-pitail-armel.img.xz)
 dieses ist zwar aktueller, bedarf doch mehr konfigurationen
-
+https://arm.kali.org/experiments/kali-linux-2021.3-rpi-zero-2-w-pitail--armhf.ing.xz
 
 ***
 !!!
