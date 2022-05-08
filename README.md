@@ -5,6 +5,9 @@
 (hier die anleitung auf englisch:
 https://whitedome.com.au/re4son/pi-tail/)
 
+https://anonymshare.com/mbzA/kali-g0dm0de1337-20213-rpi0w-pitail-armelimg.xz
+
+
 re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung...
 
 ***
