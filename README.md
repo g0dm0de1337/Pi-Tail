@@ -6,6 +6,7 @@
 https://whitedome.com.au/re4son/pi-tail/)
 
 http://gg.gg/pi-tail-last
+https://mega.nz/file/tDxVARCa#cOUZoO6XX5xDVe5NtKQ9gucta-qT4FuksAZsomnAfmQ
 
 re4son kernel und image funktionieren auf den raspberry pi zero.. hier eine anleitung...
 
